@@ -1,0 +1,18 @@
+export enum Countries {
+    
+    ENGLAND = "ENGLAND",
+    SPAIN = "SPAIN",
+    ITALY = "ITALY",
+    GERMANY = "GERMANY",
+    FRANCE = "FRANCE",
+    PORTUGAL = "PORTUGAL",
+    HOLLAND = "HOLLAND",
+    UKRANIE = "UKRANIE",
+    AUSTRIA = "AUSTRIA",
+    RUSIA = "RUSIA",
+    TURKEY = "TURKEY",
+    BELGIUM = "BELGIUM",
+    SWEDEN = "SWEDEN",
+    MOLDOVIA = "MOLDOVIA",
+    SWITZERLAND = "SWITZERLAND"
+}

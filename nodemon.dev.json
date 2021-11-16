@@ -1,0 +1,30 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "content",
+    "public"
+  ],
+  "verbose": false,
+  "execMap": {
+    "ts": "node --require ts-node/register"
+  },
+  "watch": [
+    "src/"
+  ],
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": 3000,
+    "MONGO_DB_URL": "mongodb://localhost:27017/uefadb",
+    "POT_COUNT": 4,
+    "POT_TEAM_COUNT": 8,
+    "SALT_ROUND": 8,
+    "JWT_SECRET": "LtKXw23p",
+    "JWT_TOKEN_ALGORITHM": "HS256",
+    "JWT_ISSUER": "hdyq8KhB",
+    "JWT_AUDIENCE": "vdVk9Djm",
+    "JWT_EXPIRES_IN_AS_MINUTE": 60
+  },
+  "ext": "js,json,ts"
+}
